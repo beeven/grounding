@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http:/www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+<soap12:Body>
+    <UploadFile xmlns="http://tempuri.org/">
+        <entNo>PTE51001407270000001</entNo>
+        <filename>test.xml</filename>
+        <content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPE1lc3NhZ2U+CiAgICA8TWVzc2FnZUhlYWQ+CiAgICAgICAgPE1lc3NhZ2VJRD5hYmNkZWZnPC9NZXNzYWdlSUQ+CiAgICA8L01lc3NhZ2VIZWFkPgogICAgPE1lc3NhZ2VCb2R5PgogICAgICAgIDxDdXN0b21FbGVtZW50PmxhbGFsYTwvQ3VzdG9tRWxlbWVudD4KICAgIDwvTWVzc2FnZUJvZHk+CjwvTWVzc2FnZT4K</content>
+    </UploadFile>
+</soap12:Body>
+</soap12:Envelope>

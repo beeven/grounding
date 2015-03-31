@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+    <MessageHead>
+        <MessageID>abcdefg</MessageID>
+    </MessageHead>
+    <MessageBody>
+        <CustomElement>lalala</CustomElement>
+    </MessageBody>
+</Message>
