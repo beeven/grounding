@@ -5,10 +5,10 @@ var postData = fs.readFileSync("postData.xml")
 
 
 var req = http.request({
-    hostname:"172.7.1.39",
-    port: 80,
+    hostname:"localhost",
+    port: 9000,
     method:"POST",
-    path: "/kjdec/upload.asmx",
+    path: "/grounding/12345",
     headers: {
         "Content-Type" : "application/soap+xml; charset=utf-8",
         "Content-Length": postData.length

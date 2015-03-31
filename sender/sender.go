@@ -13,8 +13,7 @@ func main() {
 
     var postData = []byte(`<?xml version="1.0" encoding="utf-8"?><root><element></element></root>`)
     req, err := http.NewRequest("POST", url, bytes.NewBuffer(postData))
-    //req.Header.Set("X-Custom-Header", "myvalue")
-    req.Header.Set("Content-Type", "application/xml")
+    req.Header.Set("Content-Type", "application/soap+xml; charset=utf-8")
     req.Header.Set("Content-Length", len(postData))
 
     client := &http.Client{}

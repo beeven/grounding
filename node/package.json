@@ -1,8 +1,9 @@
 {
-    "name":"grounding-node-service",
-    "version":"0.1.0",
-    "private":"true",
-    "dependencies":{
-        "node-uuid":"^1.4.3"
-    }
+  "name": "grounding-node-service",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "xml2js": "^0.4.6"
+  }
 }
